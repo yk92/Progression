@@ -1,12 +1,12 @@
-#include "Progression.cpp"
-#include "ArithProgression.cpp"
-#include "GeomProgression.cpp"
-#include "FibonacciProgression.cpp"
+#include "Progression.hpp"
+#include "ArithProgression.hpp"
+#include "GeomProgression.hpp"
+#include "FibonacciProgression.hpp"
 #include <iostream>
 
 using namespace std;
 
-int main() {
+int main(int argc, char* argv[]) {
 	
 	Progression* prog; //pointer of type Progression
 	
