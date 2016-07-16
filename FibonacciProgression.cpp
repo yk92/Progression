@@ -1,7 +1,7 @@
-#include 'FibonacciProgression.hpp'
+#include "FibonacciProgression.hpp"
 
 FibonacciProgression::FibonacciProgression(long f, long s)
-	: Progression(f), second(s), prev(second - first) { }
+	: Progression(f), mSecond(s), mPrev(mSecond - mFirst) { }
 
 long FibonacciProgression::firstValue() {
 	mCur = mFirst;

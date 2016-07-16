@@ -1,7 +1,7 @@
-#include 'GeomProgression.hpp'
+#include "GeomProgression.hpp"
 
 GeomProgression::GeomProgression(long b)
-	: Progression(), base(b) { }
+	: Progression(), mBase(b) { }
 
 long GeomProgression::nextValue() {
 	mCur *= mBase;

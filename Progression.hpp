@@ -6,14 +6,14 @@
 class Progression {
 	public:
 		Progression(long f = 0)
-			: first(f), cur(f) { }
+			: mFirst(f), mCur(f) { }
 		virtual ~Progression() { };
 		void printProgression(int n);
 	protected:
 		virtual long firstValue();
 		virtual long nextValue();
 	protected:
-		long mfirst;
+		long mFirst;
 		long mCur;
 };
 

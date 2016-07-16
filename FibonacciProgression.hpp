@@ -1,9 +1,11 @@
 #ifndef FIBONACCI_PROGRESSION_H
 #define FIBONACCI_PROGRESSION_H
 
-class FibonacciProgression : public Progresssion {
+#include "Progression.hpp"
+
+class FibonacciProgression : public Progression {
 	public:
-		FibonacciProgression(long f = 0, long s = 1) { };
+		FibonacciProgression(long f = 0, long s = 1);
 	protected:
 		virtual long firstValue();
 		virtual long nextValue();

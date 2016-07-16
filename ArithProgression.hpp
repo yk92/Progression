@@ -1,6 +1,7 @@
 #ifndef ARITH_PROGRESSION_H
 #define ARITH_PROGRESSION_H
 
+#include "Progression.hpp"
 
 class ArithProgression : public Progression {
 	public:

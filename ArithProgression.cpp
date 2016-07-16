@@ -1,8 +1,8 @@
-#include 'ArithProgression.hpp'
+#include "ArithProgression.hpp"
 
 //constructor must instantiate Progression class first 
 ArithProgression::ArithProgression(long i)
-	: Progression(), inc(i) { }
+	: Progression(), mInc(i) { }
 
 //polymorphic version of nextValue()
 long ArithProgression::nextValue() { 
